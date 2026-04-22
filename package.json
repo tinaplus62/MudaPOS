@@ -1,0 +1,31 @@
+{
+  "name": "muda-pos",
+  "version": "1.0.0",
+  "description": "MUDA POS - Point of Sale System",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "firebase": "^10.8.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "pos",
+    "point-of-sale",
+    "retail",
+    "inventory",
+    "sales"
+  ],
+  "author": "MUDA Team",
+  "license": "MIT"
+}
